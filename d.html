@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter Number:
+    <input type="number" id="t1"><br>
+    <input type="button" value="print_star" onclick="star()">
+    <script>
+    function star(){
+   num=document.getElementById("t1").value;
+   num=parseInt(num);
+   var i;
+   var j;
+   for (i=num;i>=1;i--){
+    for(j=1;j<=i;j++){
+        document.write(j);
+    }
+    document.write("<br>");
+   }
+
+    }
+    </script>
+
+</body>
+</html>
